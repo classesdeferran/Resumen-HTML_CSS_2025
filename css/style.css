@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Amita';
+    src: url('../fonts/Amita/Amita-Regular.woff2') format('woff2'),
+        url('../fonts/Amita/Amita-Regular.woff') format('woff'),
+        url('../fonts/Amita/Amita-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:grey;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Amita;
+   
+    font-weight: 400;
+    font-style: normal;
+    
+    
+    span {
+    color: rgba(0, 255, 8, 0.776);
+    font-size: 40px;
+    font-weight: 800;
+    font-style: oblique;
+    }
+
+}
+
+
+
+
+p {
+    color: green;
+    font-size: 20px;
+} 
+
+#p-azul, #p-azul2 {
+    color: darkblue;
+}
+
+.texto-rojo {
+    color: tomato;
+}
+
+a {
+    text-decoration: none;
+    display: block ;
+}

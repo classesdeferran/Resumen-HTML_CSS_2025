@@ -1,0 +1,40 @@
+HTML
+
+SINTAXIS
+
+Hay etiquetas con una misión específica. 
+Hay que envolverlas entre estos símbolos: < etiqueta >
+
+La mayoría actúan como contenedores: de texto, de imágenes, de otras etiquetas.
+Por lo tanto hace falta delimitar un inicio y un final. Por ejemplo:
+<etiqueta > Contenido </ etiqueta>
+
+Hay también etiquetas autoconclusivas:
+<meta>, <img>, <input>, <br>, <hr>, <link>
+
+Junto a la etiquetas se utilizan los atributos, que sirven para
+modificar o definir el compartamiento de la etiqueta. Por ejemplo:
+<img src="ruta_donde_esta_la_imagen" alt="texto_alternativo" >
+Los atributos son así: nombre = "valor" (las comillas pueden ser simples o dobles)
+
+active = "false" -> active
+
+ERRORES COMUNES
+
+-- No cerrar bien las etiquetas:
+    <p> Un texto <span>cualquiera </p> </span> 
+    <p> Un texto <span>cualquiera </span> /p>
+    <p> Un texto .... <p>
+-- No utilizar bien las etiquetas:
+    <p> texto <p> más texto </p> y más texto </p>
+
+ETIQUETAS DE TEXTO
+
+-- Títulos: <h1> --> <h6> Son jerárquicos y semánticos
+-- Párrafos : <p>
+-- Citas : <q>
+-- Origen de la cita : <cite>
+-- Texto para código y poesía : <pre>
+-- Para modificar el aspecto de una parte de cualquiera de las anteriores: <span>
+
+ENLACES
