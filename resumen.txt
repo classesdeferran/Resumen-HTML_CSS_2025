@@ -36,5 +36,26 @@ ETIQUETAS DE TEXTO
 -- Origen de la cita : <cite>
 -- Texto para código y poesía : <pre>
 -- Para modificar el aspecto de una parte de cualquiera de las anteriores: <span>
+-- Se pueden poner subíndices (<sub>) y superíndices (<sup>)
 
 ENLACES
+-- <a href="ruta_de_destino" ... > Haz clic </a>
+-- <a href="mailto: nuestra dirección de email" ... > Haz clic </a> Abrirá el software de email que tenga configurado el cliente de la aplicación
+-- <a href="tel: número contacto " ... >
+
+LISTAS
+
+-- Listas desordenadas --> <ul>
+-- Listas ordenadas --> <ol>
+    En ambas los elementos se identifican por <li>
+-- Listas de descripción o definición --> <dl>
+    Aquí hay dos tipos de elementos:
+        -- Palabra a definir --> <dt>
+        -- La definición --> <dd>
+
+-- Las listas se pueden anidar
+
+TABLAS
+
+
+ 
